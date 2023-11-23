@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widtth, initial-scale=1.0">
+        <title>Conversor de Unidades/ Diseño web</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div class="contenedor">
+            <h2>Conversor de Unidades de Longuitud</h2>
+            <div class="fila">
+                <span>Convertidor de</span>
+                <select name="unidad1" id="unidad1">
+                    <option value="Kilometro">kilometro</option>
+                    <option value="Metro">Metro</option>
+                    <option value="Centimetros">Centimetros</option>
+                </select>
+                <span>a</span>
+                <select name="unidad2" id="unidad2">
+                    <option value="Kilometro">kilometro</option>
+                    <option value="Metro">Metro</option>
+                    <option value="Centimetros">Centimetros</option>
+                </select>
+            </div>
+
+            <input type="number" id="valor" placeholder="valor">
+
+            <div class="resultado" id="resultado">
+                - -
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
